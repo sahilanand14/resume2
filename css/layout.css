@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body{background-color: black;}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -238,7 +238,6 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
    overflow: hidden;
 }
 
@@ -260,12 +259,47 @@ ul#nav li.current a { color: #F06000; }
 
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
+#education{padding-top: 90px;background-color: white;}
+
+.education h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+.education h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+.education .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+.education .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+.education .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
 
 .education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
+   
    border-bottom: 1px solid #E8E8E8;
 }
+#skills{padding-top: 90px;background-color: white;}
+#skills h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -934,7 +968,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus {     color: #11ABB0; }
 
 /* copyright */
 footer .copyright {
