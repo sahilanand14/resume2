@@ -359,6 +359,10 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+.bar-expand:hover
+{
+  background-color: rgb(17, 171, 176);
+}
 
 .react {
   	width: 60%;
@@ -1038,3 +1042,16 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+.parallax {
+    /* The image used */
+    background-image: url("../images/header-background.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
